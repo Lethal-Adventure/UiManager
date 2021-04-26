@@ -1,6 +1,7 @@
 package uimanager.uimanager;
 
 import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -17,6 +18,7 @@ public class loaded implements Listener {
         Scoreboard b = m.getNewScoreboard();
 
         Objective o = b.registerNewObjective("test", "");
-        
+        o.setDisplayName(ChatColor.AQUA + "Lethal Adventure");
+
     }
 }
