@@ -1,0 +1,6 @@
+name: UiManager
+version: ${project.version}
+main: uimanager.uimanager.UiManager
+api-version: 1.16
+authors: [ NumbThumb ]
+description: Ui handler for all the game statistics
