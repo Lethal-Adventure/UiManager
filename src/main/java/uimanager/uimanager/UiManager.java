@@ -6,8 +6,7 @@ public final class UiManager extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
-
+        System.out.println("Dungeons ui is loaded");
     }
 
     @Override
